@@ -11,6 +11,11 @@ namespace technical.test.editor
         {
             return "Gizmo count : " + _gizmos.Length;
         }
+
+        public SceneGizmo[] getGizmos()
+        {
+            return _gizmos;
+        }
     }
 
 }
