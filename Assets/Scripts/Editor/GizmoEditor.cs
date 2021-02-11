@@ -7,17 +7,17 @@ namespace technical.test.editor
     public class GizmoEditor : Editor
     {
         GizmoSceneEnhancerAsset e;
+
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
             e = (GizmoSceneEnhancerAsset) target;
             if (GUILayout.Button("Open"))
             {
-                
-                 GizmoEditorWindows.DisplayData(e);
+                GizmoEditorWindows.ShowWindow();
             }
         }
 
-        
+      
     }
 }

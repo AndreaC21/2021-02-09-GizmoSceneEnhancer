@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: GizmoSceneEnhancer
   m_EditorClassIdentifier: 
   _gizmos:
+  - Name: First Fight
+    Position: {x: 20, y: 20, z: 10}
+  - Name: PNJ to Help
+    Position: {x: 67, y: 48, z: 59}
+  - Name: Boss Arena
+    Position: {x: 80, y: 20, z: 875}
   - Name: Spawn
     Position: {x: 0, y: 0, z: 0}
   - Name: End Level
     Position: {x: 100, y: 25, z: 100}
-  - Name: First Fight
-    Position: {x: 20, y: 20, z: 10}
-  - Name: PNJ to help
-    Position: {x: 67, y: 48, z: 59}
-  - Name: Boss Arena
-    Position: {x: 80, y: 20, z: 75}
